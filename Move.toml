@@ -1,0 +1,15 @@
+[package]
+name = "Basic-Cross-Chain-Bridge-Simulation"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xd10672fb5b0cb69ceb59b3ddeeccd005f4439d7c50063331357f599ac1a20e8e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
